@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
@@ -20,12 +22,12 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link href="/" className={styles.navbar_link}>
+          <Link href="/sign-up" className={styles.navbar_link}>
             Sign Up
           </Link>
         </li>
         <li>
-          <Link href="/" className={styles.navbar_link}>
+          <Link href="/sign-in" className={styles.navbar_link}>
             Sign In
           </Link>
         </li>
